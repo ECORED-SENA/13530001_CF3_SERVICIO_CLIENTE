@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Comunicación y protocolos</title>
+        <meta meta name="description" content="En este componente formativo se mencionan las diferentes formas de manejar situaciones que resultan de la interacción con el cliente y el modelo correcto a seguir en cada una de ellas.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#ResultadosAprendizaje"><span>Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#IndiceTematico"><span>Índice temático</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link text-white" href="#Creditos"><span>Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-end">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Servicio al cliente</h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Comunicación y protocolos</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">En este componente formativo se mencionan las diferentes formas de manejar situaciones que resultan de la interacción con el cliente y el modelo correcto a seguir en cada una de ellas.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.png" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <ul class="bg-color-dark">
+                            <li><span>210601020-01 – Prestar servicio al cliente teniendo en cuenta políticas de la organización.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-play"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-2">Comunicación</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="tema-1">
+                <div class="container" id="introduccion">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div><br id="alistamiento1">
+                    <div class="card">
+                        <div class="embed-responsive embed-responsive-16by9 card-img-top"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/pJSpvQF2Uik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+                        <div class="card-body">
+                            <h2 class="mb-4">¡Bienvenidos a la temática de comunicación y protocolo!</h2>
+                            <p class="mb-4">Cada empresa plantea unas líneas de comunicación y unos protocolos para el desarrollo de la política de interacción con sus clientes. En ella representa las conductas apropiadas que facilitan la presentación real de la organización.</p>
+                            <p class="mb-4">Por lo tanto se debe agregar que en el momento que esta comunicación fluye naturalmente y se cumple con cada uno de sus protocolos, se está dando una identidad propia a la organización.</p>
+                            <p class="mb-4">Hoy en día las nuevas tecnologías también hacen parte de la gran gama de comunicación, es así que los canales sociales permiten la interacción oportuna hacia el cliente, logrando de esta manera efectos positivos y la mejora de la competitividad en las organizaciones.</p>
+                            <p>Por otra parte hay que destacar que cualquier acción humana se desenvuelve a través de la comunicación, además se debe reconocer que los protocolos también hacen parte de la interacción para potencializar los beneficios de una organización.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container" id="comunicacion">
+                    <div class="header-ecored">
+                        <h1>1. Comunicación</h1>
+                    </div>
+                    <div class="jumbotron bg-white"><img class="img-fluid mb-4 img-a1" src="assets/images/pages/img1.svg" style="max-width: 100%">
+                        <p>El ser humano desde sus inicios ha sido una especie en constante evolución, así desde la edad de piedra donde nuestros antepasados elaboraban herramientas para poder cazar y conseguir alimento, hasta la creación hoy en día de las sociedades civilizadas. Durante esta evolución, la comunicación ha estado estrechamente vinculada ya que es a partir de esta que nos relacionamos entre sí, constituimos equipos, organizaciones, proyectos y sociedades.</p>
+                        <p>Aprender a comunicarnos, escuchar atentamente y diseñar conversaciones, son competencias cada vez más necesarias que completan el perfil profesional, personal y empresarial.</p>
+                        <div class="bg-t4">
+                            <p>Fonseca, Correa, Pineda y Lemus, (2011) enuncian:</p>
+                            <div class="quote my-2"></div>
+                            <div class="quote__bar">
+                                <div class="quote__bar__icon"><img src="assets/images/icons/quote_01.svg"></div>
+                                <div class="quote__bar__hr"></div>
+                            </div>
+                            <div class="quote__text">
+                                <p class="mb-3">Comunicar es una cualidad racional y emocional específica del hombre que surge de la necesidad de ponerse en contacto con los demás, cuando intercambia ideas que adquieren sentido o significación de acuerdo con experiencias previas comunes.</p>
+                                <p class="text-right mb-0"><i>pág.2.</i></p>
+                            </div>
+                            <div class="quote__bar">
+                                <div class="quote__bar__hr"></div>
+                                <div class="quote__bar__icon"><img src="assets/images/icons/quote_02.svg"></div>
+                            </div>
+                            <p>Como se menciona a continuación por dos autores “El hombre es una criatura que se comunica” (Ferrer,1994, pág. 21), “No puede existir en un grupo o en una sociedad sin alguna forma de comunicación” (Fonseca, 2011, pág. 2).</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img2.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <p>El propósito de la comunicación es el entendimiento, la creación de significados compartidos a través de procesos simbólicos. Estos procesos simbólicos hacen referencia a todos los signos, símbolos y medios por los cuales se transmite su significado a otros seres humanos.</p>
+                                <p>En este sentido la comunicación juega un papel muy importante en el desarrollo personal y empresarial, toda vez que no solo ayuda a transmitir información, sino que permite desarrollar relaciones en contextos laborales con el mercado objetivo, y en contextos sociales y familiares con el entorno del individuo.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t4">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img22.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <p>En razón a lo anterior, la importancia de definir estrategias organizacionales y planes de comunicación para abordar de manera exitosa a los clientes, teniendo en cuenta que no solo nos expresamos por medio de palabras sino también con gestos y actitudes que hacen parte de nuestro lenguaje corporal que es igual o más importante que el verbal, ya que se dice que, de un cien por ciento en una conversación, el ochenta por ciento tiende a ser lenguaje no verbal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img1.png">
+                        <div class="card-body">
+                            <h3>Lenguaje</h3>
+                            <p class="mb-4">Desde siempre el lenguaje y la comunicación están estrechamente relacionados y el uno depende del otro para conseguir los ideales planteados. El lenguaje da la oportunidad de expresar los sentimientos, ideas, pensamientos y a través de signos verbales dan origen a la comunicación.</p>
+                            <p class="mb-4">No se equivocan al decir que el lenguaje es un invento que el hombre desarrolló para comprender y dar significado al mundo que lo rodea. El lenguaje está directamente relacionado con el desarrollo y el progreso de una sociedad civilizada (Fonseca, 2011, pág.3).</p>
+                            <h3>Funciones del lenguaje</h3>
+                            <p class="mb-4">Haciendo relación a las funciones del lenguaje es importante resaltar que éstas son fundamentales para comprender la manera en que se codifica una conversación y se transmite un mensaje entre un emisor y un receptor. </p>
+                            <p class="mb-4">Al respecto, el lenguaje Roca Ponds (1973) específica “tres funcionalidades que complementan el propósito de la comunicación. Estas se dividen en función representativa, expresiva y apelativa o de llamada y su significado se contextualiza a continuación” (pág.13):</p>
+                            <table class="mb-4">
+                                <thead>
+                                    <tr>
+                                        <td><img class="img-fluid img-min" src="assets/images/pages/img3.svg" style="max-width: 100%"></td>
+                                        <td>
+                                            <p class="bg-t1"><b>La función representativa.</b> Hace referencia a la capacidad de codificar ideas a través de simbologías que permiten transmitir de manera efectiva el mensaje. Esta característica es propia de la especie humana debido a su capacidad natural de raciocinio.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-fluid img-min" src="assets/images/pages/img4.svg" style="max-width: 100%"></td>
+                                        <td>
+                                            <p class="bg-t1"><b>La función expresiva.</b> Tiene en cuenta la forma en que se da a conocer el mensaje y refleja el estado emocional de quien habla. Así, por medio de gestos, señas y emociones se muestran al receptor las expresiones guiadas por el entorno. Esta característica la podemos encontrar en las diferentes especies ya que se manifiesta de forma espontánea.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><img class="img-fluid img-min" src="assets/images/pages/img5.svg" style="max-width: 100%"></td>
+                                        <td>
+                                            <p class="bg-t1"><b>La función apelativa o de llamada.</b> Se traduce en los elementos que utiliza el emisor para atraer la atención del receptor al momento de enviar o transmitir un mensaje bien sea verbal o no verbal.</p>
+                                        </td>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <div class="row bg-t4">
+                                <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img2.png" style="max-width: 100%"></div>
+                                <div class="col m-auto">
+                                    <p>Dejando claro algunos conceptos básicos podemos concluir, que la manera en que nos comunicamos está ligada a elementos como el lenguaje y la expresión, los cuales están inmersos en cada individuo y que derivan en la forma en que se crean las distintas culturas a nivel mundial, llegando a tener características propias no solo del lenguaje sino también de las diferentes expresiones utilizadas en cada una de las regiones. De esta manera, se pueden identificar las raíces autóctonas que hacen particular a cada comunidad, región o país que finalmente se desglosan en la diversidad de lenguajes, lenguas y culturas a lo largo de la pacha mama (Fonseca, 2011). </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br id="elementos">
+                    <div class="header-ecored">
+                        <h2>1.1 Elementos de la comunicación</h2>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 br6"><iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/uyfkdAMQAI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><br id="tipos">
+                    <div class="header-ecored">
+                        <h2>1.2 Tipos de comunicación</h2>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p class="mb-4">Dentro de los tipos de comunicación podemos encontrar que según cada uno de los componentes de la comunicación podemos enumerar diferentes tipos de comunicación que se presentan en una sociedad.</p>
+                        <p>Según el emisor y el receptor:</p>
+                        <ul class="list-p">
+                            <li>Intrapersonal: es aquella comunicaci&oacute;n que se realiza consigo mismo.</li>
+                            <li>Interpersonal: comunicaci&oacute;n que se da entre dos personas.</li>
+                            <li>Grupal: comunicaci&oacute;n donde intervienen varias personas, como un grupo peque&ntilde;o.</li>
+                            <li>P&uacute;blica: donde una persona comunica a un p&uacute;blico espec&iacute;fico.</li>
+                            <li>Masiva: comunicaci&oacute;n donde una persona o un grupo de ellos interact&uacute;a con un n&uacute;mero indeterminado de personas.</li>
+                        </ul>
+                        <p>Según medio:</p>
+                        <ul class="list-p">
+                            <li>Verbal (oral y escrita).</li>
+                            <li>No verbal (visual, auditiva, kin&eacute;sica, artefactual).</li>
+                            <li>Electr&oacute;nica (a trav&eacute;s de recursos tecnol&oacute;gicos).</li>
+                        </ul>
+                        <p>Según mensaje:</p>
+                        <ul class="list-p">
+                            <li>Por el contenido (pública o privada).</li>
+                            <li>Por el tratamiento (culta, estándar, coloquial y popular).</li>
+                        </ul>
+                        <p>Según contexto:</p>
+                        <ul class="list-p">
+                            <li>Formal (sujeta a normas y patrones preestablecidos según nivel social).</li>
+                            <li>Informal (de acuerdo a gustos y preferencia, no tiene una estructura definida). </li>
+                        </ul>
+                    </div><br id="canales">
+                    <div class="header-ecored">
+                        <h2>1.3 Canales de atención</h2>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img3.png">
+                        <div class="card-body">
+                            <h3>Oficina</h3>
+                            <p class="mb-4">Disponer de un espacio para la atención de los clientes de la compañía no es suficiente. La preparación de las reuniones y el alistamiento de los elementos a utilizar durante la misma, se traducen en el desarrollo de encuentros efectivos y la transmisión de una buena imagen corporativa a los clientes en la que se muestra respeto por su tiempo y el interés por su bienestar.</p>
+                            <p class="mb-4">De acuerdo con lo anterior, el empleador debe proveer a sus empleados el material, la infraestructura y una adecuada organización de tareas dentro del equipo para que la experiencia del cliente durante el encuentro no se vea afectada, en lo posible, por imprevistos de documentos faltantes, llamadas telefónicas inesperadas o interrupciones que distraigan a los asistentes.</p>
+                            <p>Finalmente, se generan los espacios y los medios para recibir retroalimentación de sus clientes por medio de buzones de peticiones, quejas, reclamos y felicitaciones o cualquier otro medio que considere pertinente. Sus opiniones son importantes y merecen ser escuchadas, por lo que los buzones deben ser revisados y considerados.</p>
+                        </div>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img4.png">
+                        <div class="card-body">
+                            <h3>El teléfono</h3>
+                            <p class="mb-4">Aunque es uno de los medios de comunicación más antiguos, su efectividad no pasa de moda y un adecuado uso del mismo puede representar mayor fidelización de clientes y la atracción de clientes potenciales.</p>
+                            <p class="mb-4">Independientemente del tipo de atención telefónica que maneje su empresa, la calidad del servicio que se preste al cliente debe ser ejemplar, aunque quien conteste sea una persona o una grabación.</p>
+                            <p>Si la empresa ofrece las líneas telefónicas como medio de “contacto” con sus clientes, es apenas lógico que se establezca un contacto efectivo con los mismos y que se entregue la información que ellos necesitan. Si la línea que se dispone para atender a los clientes no funciona, no es atendida o contiene respuestas que dejan al usuario en una encrucijada, no es efectiva y puede desatar en pérdida de clientes y percepción de falta de interés y respeto por parte de la compañía.</p>
+                            <div class="row bg-t4 my-4">
+                                <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img21.svg" style="max-width: 100%"></div>
+                                <div class="col m-auto">
+                                    <p>Es necesario entrenar a los operadores telefónicos en marketing y comunicación cordial y asertiva. Diseñar estrategias para sacar provecho de los tiempos de espera en las llamadas, como promocionar nuevos productos o servicios de la compañía mientras el asesor vuelve a la llamada con el cliente, puede derivar en la expansión del mercado y hace más agradable la atención al cliente.</p>
+                                </div>
+                            </div>
+                            <p>Sin embargo, el aspecto más importante respecto al entrenamiento de los operadores es el conocimiento de todos los procesos y el cumplimiento de la compañía con la información que entrega. Si el empleado no tiene clara la solución de las diferentes problemáticas y si entrega información errónea, la atención del cliente se va a echar por la borda y generará efectos negativos para la compañía.</p>
+                        </div>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img5.png">
+                        <div class="card-body">
+                            <h3>El Internet</h3>
+                            <p class="mb-4">El Internet es un ambiente propicio para la comunicación entre las personas debido a su gran alcance en cuanto a la audiencia y por el nivel de información que se puede llegar a encontrar y que está disponible para todo el público, por otra parte nos encontramos con una parte desfavorable ya que por ser una tecnología reciente o relativamente nueva, aún no cuenta con la estructura necesaria para que llegue a toda la geografía, quedando en desventaja las zonas alejadas de las urbes como pueden ser las áreas rurales o lugares que no cuenten con cobertura de red.</p>
+                            <p>De otro modo el Internet brinda múltiples opciones de comunicación siendo los canales más relevantes la world wide web más conocida como “WWW” y el correo electrónico más conocido como “E-mail” los cuales cuentan con reglas, códigos y características propias en la forma de presentar y transmitir la información a las personas.</p>
+                        </div>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img6.png">
+                        <div class="card-body">
+                            <h3>La Web</h3>
+                            <p>Se define como el lugar donde múltiples interlocutores pueden publicar diferentes tipos de mensajes, con el fin apropiado para tener una masificación con respecto a la audiencia, de esta manera, los contenidos que se pueden encontrar en la web pueden ser muy diversos con características diferenciadas entre el texto, las animaciones e incluso los sonidos que se pueden agregar, para atraer al lector no solo visual sino también auditivamente. Cabe resaltar que la web está disponible en todo momento, lo que hace más accesible su llegada a las personas, sin dejar de lado que se puede consultar en cualquier latitud del mundo.</p>
+                        </div>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img7.png">
+                        <div class="card-body">
+                            <h3>El e-mail o correo electrónico </h3>
+                            <p>Es una herramienta usada frecuentemente por personas naturales y empresas, que buscan tener una conversación más personalizada, sin dejar de lado que es un canal muy potente para comunicarse desde diferentes latitudes a nivel mundial con un solo click, de esta manera incluye la ventaja de tener un público objetivo al cual se quiere hacer llegar el mensaje o para tratar temas de interés entre las personas involucradas.</p>
+                        </div>
+                    </div><br id="protocolo">
+                    <div class="header-ecored">
+                        <h2>1.4 Protocolo del servicio</h2>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img8.png">
+                        <div class="card-body">
+                            <p class="mb-4">El protocolo del servicio es el arte holístico que determina la exitosa consecución de objetivos empresariales como resultado de un buen ambiente laboral y la mejor productividad posible sin descuidar el bienestar de los trabajadores ni dejar de pensar en los objetivos del público o target al cual se dirija la institución.</p>
+                            <p class="mb-4">Para una organización, el protocolo de servicio debe ser cumplido tanto interna como externamente. Dentro de la entidad acatando el compendio de indicaciones, manuales e instrucciones que presentan detalladamente la forma correcta de actuar y exteriorizar a través del departamento de servicio al cliente, quien es el rostro de la compañía. El objetivo es el mismo, alcanzar la lealtad y la confianza del cliente.</p>
+                            <h3 class="mb-4">Los componentes clave del protocolo de servicio:</h3>
+                            <p class="mb-4">Se identifican tres aspectos fundamentales que permiten interconectar el recurso humano, tecnológico y procedimental al momento de perseguir las metas tanto profesionales como instituciones.</p>
+                            <div class="carousel slide bg-sld-t2" id="carouselIndicators" data-interval="false">
+                                <ol class="carousel-indicators">
+                                    <li class="active" data-target="#carouselIndicators" data-slide-to="0"></li>
+                                    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner m-sld">
+                                    <div class="carousel-item active">
+                                        <h3 class="tit-c1 mt-4">Roles y Responsabilidades</h3>
+                                        <div class="row">
+                                            <div class="col-md-4 col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img6.svg" style="max-width: 100%"></div>
+                                            <div class="col m-auto">
+                                                <p class="mb-4">En primer lugar, los roles a cumplir por cada miembro de la empresa y sus funciones. Cuando los deberes de cada rol en la empresa están claros y debidamente analizados y documentados, la ejecución de labores y funciones fluirá de la manera óptima, logrando llegar correctamente a puntos finales y desenlaces propuestos y deseados para una aplicabilidad global que permita extrapolar experiencias y enriquecer las rutas de atención al cliente y convivencia empresarial para con los compañeros de trabajo, independiente de su jerarquía a ocupar.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <h3 class="tit-c1 mt-4">Detalles de información procedimental</h3>
+                                        <div class="row">
+                                            <div class="col-md-4 col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img7.svg" style="max-width: 100%"></div>
+                                            <div class="col m-auto">
+                                                <p class="mb-4">Es relevante que todos los roles e interconexiones establecidas al interior de las instituciones se fundamentan en correctos procesos de comunicación por medio de los cuales se permita lograr un adecuado aprendizaje y por ende la capacitación permanente tanto a nivel individual como colectivo, preparando así al equipo para que se desarrolle la capacidad de acción y atención frente a las posibles e inevitables contingencias que surjan en el tiempo.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <h3 class="tit-c1 mt-4">Estilo y presentación</h3>
+                                        <div class="row">
+                                            <div class="col-md-4 col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img8.svg" style="max-width: 100%"></div>
+                                            <div class="col m-auto">
+                                                <p class="mb-4">Presentación y estilo. La cara del protocolo de atención representa el compromiso con la imagen corporativa y a su vez la misión y visión que se perciba, es por esto que se espera sea un documento fuente con la revisión y aportes por parte de aquellas personas que ejerzan un rol de liderazgo y conozcan muy bien todo campo de acción e historia de la organización para así también llegar a mostrarlo de la manera más comprensible posible de forma tal que llegue a los lectores y aprendices de forma didáctica y representativa generando en cada quien un significativo sentido de pertenencia y compromiso para con la institución, sus compañeros de trabajo y sus clientes tanto reales como potenciales. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cont-btn"><a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Atras</span></a><a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Siguiente</span></a></div>
+                            </div>
+                        </div>
+                    </div><br id="etiqueta">
+                    <div class="header-ecored">
+                        <h2>1.5 Etiqueta y protocolo empresarial</h2>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p class="mb-4">Dentro del compendio de normas que enmarcan la etiqueta y el protocolo, el empresarial está vinculado a las compañías u organizaciones que desarrollan una o varias actividades económicas con fines de lucro. Comprende reglas sociales y formales de comportamiento que se llevan a la práctica tanto al interior, como hacia el exterior de la empresa.</p>
+                        <p class="mb-4">La confianza sembrada en los clientes potenciales y su posterior fidelización se encuentran fuertemente ligada a la coherencia entre los procesos de calidad en las empresas y la calidad humana con la que se basan los pilares institucionales. La gestión adecuada de estos aspectos se traduce en fortalezas frente a los posibles competidores.</p>
+                        <p class="mb-4">Junto con el protocolo y la etiqueta empresarial, el buen clima laboral favorece la productividad y en consecuencia genera ambientes positivos entre compañeros de trabajo y para con los clientes.</p>
+                        <p class="mb-4">Dentro de los múltiples e importantes valores que determinan la etiqueta empresarial se destacan principalmente:</p>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img9.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Honestidad</h3>
+                                <p>Es el eje de toda estructura corporativa. Conductas correctas y honradas desenlazan en el correcto desarrollo de las actividades, genera confianza elevando la interacción entre colegas y directivos.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img10.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Respeto</h3>
+                                <p>Parte de la escucha activa y la imparcialidad frente a ideas expresadas por el individuo reconocido como entidad única. Crea un ámbito laboral de seguridad y cordialidad, aceptando limitaciones ajenas y reconociendo virtudes.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img11.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Puntualidad</h3>
+                                <p>La puntualidad, disciplina y crea hábitos valorando el tiempo propio como el ajeno. La puntualidad actúa también como carta de presentación de nosotros mismos como persona y como empresa hacia nuestros interesados, si es que estamos vinculados a alguna.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img12.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Discreción</h3>
+                                <p>La discreción en el ámbito laboral conlleva resguardar información por motivos de convivencia, privacidad o conservación del clima laboral.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img13.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Amabilidad</h3>
+                                <p>En el entorno laboral la amabilidad se plantea como una cualidad relevante al momento de seleccionar personal para las empresas, ya que se ha demostrado que esta reduce el riesgo psicosocial, mejora las condiciones de vida y de trabajo.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img14.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Actitud positiva</h3>
+                                <p>Una actitud positiva frente a cualquiera que sea a la situación empresarial que se presente, motiva el esfuerzo individual y colectivo y puede actuar como una forma de liderazgo positivo.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img15.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Imagen</h3>
+                                <p>La imagen empresarial hoy en día es el activo intangible más importante de las organizaciones la cual cuidan con recelo; el comportamiento, junto al buen servicio y otros aspectos reflejan la buena o mala imagen ante los “stakeholders”.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img16.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Comunicación</h3>
+                                <p>Dentro de la organización la comunicación efectiva es de vital importancia, practicar esta habilidad constantemente evita reprocesos en las tareas y permite usar de manera más eficiente el tiempo y la información.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img17.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Elegancia</h3>
+                                <p>En el ámbito organizacional la persona debe usar adecuadamente su vestimenta ya que apoya la imagen personal y empresarial. Encontrar un balance entre la moda y la preferencia personal adaptada al contexto en el que se encuentre.</p>
+                            </div>
+                        </div>
+                        <div class="row bg-t2 mb-3">
+                            <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img18.svg" style="max-width: 100%"></div>
+                            <div class="col m-auto">
+                                <h3>Coherencia</h3>
+                                <p>Es la relación directa entre lo que se piensa y cómo se actúa, refleja relación entre estos dos aspectos, credibilidad y confianza.</p>
+                            </div>
+                        </div>
+                    </div><br id="seguridad">
+                    <div class="header-ecored">
+                        <h2>1.6 Seguridad y salud en el trabajo</h2>
+                    </div>
+                    <div class="card"><img class="card-img-top" src="assets/images/pages/img9.png">
+                        <div class="card-body">
+                            <p class="mb-4">La normativa concerniente a los Sistemas de Gestión de Seguridad y Salud en el Trabajo están contemplados en el Decreto 1072 del 26 de mayo de 2015, allí se dictan las disposiciones para la implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST).</p>
+                            <p class="mb-4">La Seguridad y Salud en el Trabajo (SST) es la disciplina que trata de la prevención de las lesiones y enfermedades causadas por las condiciones de trabajo, y de la protección y promoción de la salud de los trabajadores.</p>
+                            <h2 class="text-center">Pirámide de Hans Kelsen</h2><img class="img-fluid img-a" src="assets/images/pages/img19.svg" style="max-width: 100%">
+                            <p class="mb-4">A partir de la pirámide de Hans Kelsen se observan los tratados y convenios internacionales que representan jerárquicamente la normativa colombiana legal vigente bajo la cual y con base en ella se debe realizar la implementación del Sistema de Gestión de la Seguridad y Salud en el Trabajo SG-SST.</p>
+                            <p class="mb-4">Para ello se busca identificar las normas generales y específicas de acuerdo a la naturaleza de la organización, ya que es indispensable gestionar los peligros y riesgos para evitar incidentes, accidentes y enfermedades laborales y también, permitir el cumplimiento de la normatividad establecida a nivel nacional.</p>
+                            <h3>Sistemas de Gestión de la Seguridad y Salud en el Trabajo</h3>
+                            <p class="mb-4">El Decreto 1072 de 2015 establece el SG-SST y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua; incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora, con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la Seguridad y la Salud en el Trabajo (Artículo 2.2.4.6.4).</p>
+                            <p class="mb-4">Dentro de las compañías quienes deben liderar la creación e implementación de un SG-SST son los gerentes o empleadores directos, sumado a la participación de los trabajadores, para garantizar el correcto funcionamiento del sistema, la aplicación de las medidas de Seguridad y Salud en el Trabajo, el mejoramiento del comportamiento de los trabajadores y las condiciones del medio ambiente laboral, así como el control eficaz de los peligros y riesgos en el lugar de trabajo.</p>
+                            <div class="row bg-t4">
+                                <div class="col-md-auto col-12 m-auto"><img class="img-fluid img-a" src="assets/images/pages/img20.svg" style="max-width: 100%"></div>
+                                <div class="col m-auto">
+                                    <p>El empleador con vínculo laboral con sus empleados debe abordar la prevención de los accidentes y las enfermedades laborales; igualmente, asumir la protección y promoción de la salud. Este proceso se realiza a través de la implementación, mantenimiento y mejora continua de un sistema de gestión, que base sus principios en el ciclo PHVA (Planificar, Hacer, Verificar y Actuar) enunciado por el estadístico William Deming.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">Calidad en la atención al cliente:</strong>“Representa una herramienta estratégica que permite ofrecer un valor añadido a los clientes con respecto a la oferta que realicen los competidores y lograr la percepción de diferencias en la oferta global de la empresa” (Instituto Tecnológico de Sonora. 2013, pág. 6).</p>
+                        <p><strong class="mr-2">Canales de atención:</strong>según Vartuli, a. (enero,2006). En su "articulo Canales de Comunicación con el Cliente, define los canales de comunicación " 1. Oficina, 2. El teléfono, 3. El internet, 4. La Web 5. El e-mail: </p>
+                        <p><strong class="mr-2">Cliente:</strong>“Es la persona, empresa u organización que adquiere o compra de forma voluntaria productos o servicios que necesita o desea para sí mismo, para otra persona u organización; por lo cual, es el motivo principal por el que se crean, producen, fabrican y comercializan productos y servicios” (Instituto Tecnológico de Sonora. 2013, pág. 6).</p>
+                        <p><strong class="mr-2">Comunicación:</strong>según Stanton, Etzel y Walker, (2007) la comunicación es "la transmisión verbal o no verbal de información entre alguien que quiere expresar una idea y quien espera captarla o se espera que la capte", (Pág. 511). </p>
+                        <p><strong class="mr-2">Cliente:</strong>“Es la persona, empresa u organización que adquiere o compra de forma voluntaria productos o servicios que necesita o desea para sí mismo, para otra persona u organización; por lo cual, es el motivo principal por el que se crean, producen, fabrican y comercializan productos y servicios” (Instituto Tecnológico de Sonora. 2013, pág. 6).</p>
+                        <p><strong class="mr-2">Elementos de la comunicación:</strong>Fonseca m. (2000, págs,4). Nos dice que hay varias formas de clasificar la comunicación para estudiarla, pero la mayoría de los autores (cfr. Hybels y Weaver, 1976; R. Miller, 1978; Blake R. y Haroldsen, 1983; Berlo, 1980) han elaborado tipologías, cuyos elementos de categorización son los principales componentes que hemos analizado en el proceso de comunicación y que funcionan como variables en cada situación. 1. La fuente 2. El emisor 3. El receptor 4. El mensaje. 5. El canal. 6. La retroalimentación. Fonseca m. (2000, págs,4). Comunicación Oral Fundamentos y Práctica Estratégica, (Primera Edición). Pearson Educación, México, 2000.</p>
+                        <p><strong class="mr-2">Empresa:</strong>"Unidad económica de producción, transformación o prestación de servicios, cuya razón de ser es satisfacer una necesidad existente en la sociedad.” (El Diccionario de Marketing, de Cultural S.A, 2020).</p>
+                        <p><strong class="mr-2">Habilidades de servicios:</strong>según Izquierdo, R (2018). Las habilidades de atención al cliente; ser respetuoso, tener autocontrol, ser positivo, saber escuchar, ser un buen comunicador, ser empático, ser ágil, saber trabajar en equipo, ser diligente y resolutivo, conocer bien el servicio y la empresa, y manejar bien las herramientas tecnológicas de trabajo.</p>
+                        <p><strong class="mr-2">Momento de verdad:</strong>"Un momento de verdad es ese preciso instante en que el cliente se pone en contacto con nuestro negocio y, sobre la base de ese contacto se forma una opinión acerca de la calidad del servicio y virtualmente la calidad del producto". (Albrecht, 1990, pág. 30)</p>
+                        <p><strong class="mr-2">Organizaciones:</strong>“Son entidades sociales, dirigidas a metas diseñadas con una estructura deliberada y con sistema de actividad coordinados y vinculadas con el ambiente externo.” (Richard Daft, 2001).</p>
+                        <p><strong class="mr-2">Protocolo:</strong>conjunto de reglas de cortesía que se siguen en las relaciones sociales y que han sido establecidas por costumbre. (Cano, Michelle, 24 de marzo de 2015). Artículo protocolo de servicio al cliente “.</p>
+                        <p><strong class="mr-2">Seguridad y Salud en el Trabajo:</strong>el Ministerio del Trabajo comprometido con las políticas de protección de los trabajadores colombianos y en desarrollo de las normas y convenios internacionales, estableció el Sistema de Gestión de Seguridad y Salud en el Trabajo (SG-SST), el cual debe ser implementado por todos los empleadores y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, lo cual incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales. Ministerio del Trabajo, (Decreto 1072 de 2015).</p>
+                        <p><strong class="mr-2">Servicio al cliente:</strong>el servicio al cliente es el conjunto de estrategias que una compañía diseña para satisfacer, mejor que sus competidores, las necesidades y expectativas de sus clientes externos. (Humberto Serna Gómez, 2006.).</p>
+                        <p><strong class="mr-2">Servicio:</strong>“Es un medio para entregar valor a los clientes, facilitando los resultados que los clientes quieren conseguir sin asumir costes o riesgos específicos.” (Instituto Tecnológico de Sonora. 2013, pág. 6).</p>
+                        <p><strong class="mr-2"> Tipos de comunicación:</strong>Pineda, Stephany. (2014) en su libro servicio al cliente desde un enfoque comunicacional. No dice que podemos agrupar dos tipos de comunicación: la comunicación verbal, que es todo aquel mensaje que se envía al receptor a través del lenguaje hablado. La comunicación no verbal, que es todo aquel mensaje que se envía sin expresar ninguna palabra.</p>
+                        <p><strong class="mr-2">Tipos de servicios:</strong>es un proceso continuo de seguimiento para atender las necesidades del cliente. Existen diferentes tipos de servicio al cliente para obtener los resultados que se desean.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Ferrer, E. (1994). Comunicación, expresión y lenguaje.<a class="ml-2" href="https://studylib.es/doc/6218953/citado-en-ferrer-1994--21" target="_blank">https://studylib.es/doc/6218953/citado-en-ferrer-1994--21</a></p>
+                        <hr>
+                        <p>Fonseca Yerena, M., Correa Perez, A., Pineda Ramirez, M., &amp; Lemus Hernandez, F. (2011). Comunicación oral y escrita. México: Pearson Educación.</p>
+                        <hr>
+                        <p>Roca -Pond,J. (1973). El lenguaje. España: Teide.</p>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzón</strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-5">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Sandra Milena Cortés Linares</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Katiusca Venegas Hernández</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Samuel Antonio Ariza Castro</strong><br /><span class="text-small">Experta tematica<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro Industrial y de Aviación</span><br><span class="text-small">Regional Atlántico</span></p>
+                        <p class="footer-texto mb-2"><strong>Luis Fernando Botero</strong><br /><span class="text-small">Evaluador instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital </span></p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <p class="footer-texto mb-2"><strong>Julieth Paola Vital López</strong><br /><span class="text-small">Revisora de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria y la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital</span></p>
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Leyson Fabian Castaño Perez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto mb-2"> <strong>Adriana Rincón Avendaño</strong><br />
+                            <strong>Nelson Iván Vera Briceño</strong><br /><span class="text-small">Producción Audiovisual<br /></span></p>
+                        <p class="footer-texto mb-2"><strong>Luis Gabriel Urueta Alvarez</strong><br /><span class="text-small">Diseño web & Desarrollo front-end<br /></span></p>
+                        <p class="footer-texto mb-2"><span class="text-small text-uppercase">Centro industrial del diseño y la manufactura </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-4">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"> <strong>Brayan Steven Pinto Diaz</strong><br />
+                            <strong>Ricardo Alfonso Gonzalez Vargas</strong><br /><span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="d-flex flex-column justify-content-center"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>

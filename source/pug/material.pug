@@ -34,8 +34,10 @@ html(lang="es")
                         .card.wow.flipInX(data-wow-delay=".4s")
                             .card-body
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
-                                    +navTemaItem('play', 'Introducción', 'main.html#page/#tema-1/')
-                                    +navTemaItem('1', 'Cliente', 'main.html#page/#tema-2/')
+                                    +navTemaItem('play', 'Introducción', '#tema-1')
+                                    +navTemaItem('1', 'Comunicación', '#tema-2')
+                                    +navTemaItem('glosary', 'Glosario', '#glosario')
+                                    +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
         section#mainContent         
             #tema-1
